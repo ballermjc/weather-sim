@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200');
+
+html, body {
+  background-color: #6297B6;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #FFFFFF;
+  
+}
+
+#cityInput {
+  color: #CCCCCC;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input, select, button {
+  width: 15vw;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: none;
+  color: #6297B6;
+}
+
+h1, h2 {
+  letter-spacing: 1px;
+}
+
+.forecast {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.forecastPanel {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 1px 3px 10px -1px black;
+}
+
+.hidden {
+  display: none;
+}
+
+.forecast h2 {
+  margin: 10px;
+}
